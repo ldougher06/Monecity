@@ -1,0 +1,23 @@
+{
+  "name": "monecity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldougher06/Monecity.git"
+  },
+  "author": "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldougher06/Monecity/issues"
+  },
+  "homepage": "https://github.com/ldougher06/Monecity#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}
