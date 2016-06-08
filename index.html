@@ -11,111 +11,272 @@
 
     <title>Monecity</title>
 
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./main.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
 
 </head>
 
-<body>
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Monecity</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Monecity</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#faq">FAQ</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h3>Monecity</h3>
-                <h4>Simple | Secure | Profitable</h4>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Monecity</h1>
+                <hr>
+
+                <h3 class="text-faded">
+                  <ul class="list-inline">
+                    <li>Simple</li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>Secure</li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>Profitable</li>
+                  </ul>
+                </h3>
+                <hr>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
 
-    <!-- Page Content -->
-    <div class="container">
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading"><strong>Monecity</strong> has what you need!</h2>
+                    <hr class="light">
 
-        <hr class="featurette-divider">
+                    <p class="text-faded">Nashville-based <strong>Monecity</strong> is a virtual payment processing company, which has the nation's only municipal virtual payment service called "VEEP."</p>
+
+                    <p class="text-faded"><strong>Monecity</strong> serves municipal and state governments by competitively securing optimal payment processing relationships for cities and other governmental bodies.</p>
+
+                    <a href="#services" class="page-scroll btn btn-default btn-lg sr-button">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-8 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-line-chart text-primary sr-icons"></i>
+                        <h3>What do we do?</h3>
+                        <ul class="text-muted text-left">
+                          <li>Reduce overhead expenses</li>
+                          <li>Create an additional revenue stream</li>
+                          <li>Modernize an organization's Accounts Payable department</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cc-mastercard text-primary sr-icons"></i>
+                        <h3>How do we do it?</h3>
+                        <ul class="text-muted text-left">
+                          <li>Eliminate paper checks</li>
+                          <li>Integrate a virtual payment solution specific to an organization's needs</li>
+                          <li>Strategic partnerships with companies specializing in electronic payments</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-usd text-primary sr-icons"></i>
+                        <h3>What are the benefits?</h3>
+                        <ul class="text-muted text-left">
+                          <li>Immediate cost savings</li>
+                          <li>Added revenue stream</li>
+                          <li>1% in monthly rebate for all AP payments converted to the virtual platform</li>
+                          <li>Reduces check fraud exposure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!--     <div class="content-section-a">
+
+        <div class="container bg-primary">
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <h2 class="section-heading">Virtual Card Payments</h2>
+                    <p class="text-faded">Like Checks, but Better</p>
+
+                    <ul class="text-faded">
+                      <li>Single-use account # for the exact payment amount</li>
+                      <li>Simple, secure and timely supplier funding</li>
+                      <li>Detailed remittance advice</li>
+                      <li>Integrates into normal AP workflow</li>
+                      <li>Uses existing vendor payment terms</li>
+                      <li>Simple Reconciliation</li>
+                      <li>Turns AP department into a revenue generator</li>
+                      <li>Mastercard is accepted at over 32 million locations</li>
+                      <li>Works in conjunction with P-card programs</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="./img/portfolio/fullsize/6.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+    <!-- Page Content -->
+    <div class="" id="featurette">
+
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="content1">
+          <div class="featurette" id="">
+              <img class="featurette-image img-circle img-responsive pull-left" src="./img/portfolio/fullsize/content2_VPP.png">
+              <h2 class="featurette-heading content1_text">Virtual Payment Processing:</h2>
+              <h3 class="text-muted content1_text">Like checks, but better.</h3>
+              <p class="content1_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
+              <p class="content1_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
+          </div>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="content2">
+          <div class="featurette" id="">
+              <img class="featurette-image img-circle img-responsive pull-right" src="./img/portfolio/fullsize/Payment-Gateway.png">
+              <h2 class="featurette-heading content2_text">Virtual Payment Processing:
+                  <span class="text-muted content2_text">Like checks, but better.</span>
+              </h2>
+              <p class="content2_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
+              <p class="content2_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
+          </div>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="content3">
+          <div class="featurette" id="">
+              <img class="featurette-image img-circle img-responsive pull-left" src="./img/portfolio/fullsize/checks.jpg">
+              <h2 class="featurette-heading content3_text">Virtual Payment Processing:
+                  <span class="text-muted content3_text">Like checks, but better.</span>
+              </h2>
+              <p class="content3_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
+              <p class="content3_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
+          </div>
         </div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-        <!-- Footer -->
-        <footer>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Monecity</h2>
+                <ul class="list-inline">
+                  <li>Simple</li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                  <li>Secure</li>
+                  <li class="footer-menu-divider">&sdot;</li>
+                  <li>Profitable</li>
+                </ul>
+                <!-- <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Monecity 2016</p>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <hr class="primary">
+                    <p>Ready to start saving money and generating revenue? Contact us now!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">info@monecity.com</a></p>
                 </div>
             </div>
-        </footer>
-        <!-- /.footer -->
+        </div>
+    </section>
 
-    </div>
-    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
 
 </body>
 
