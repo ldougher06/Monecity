@@ -11,6 +11,7 @@ body {
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
 }
 hr {
   border-color: #f05f40;
@@ -141,6 +142,7 @@ aside {
     color: #f05f40;
   }
 }
+
 header {
   position: relative;
   width: 100%;
@@ -150,10 +152,11 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  /*background-image: url('../img/nyc_aerial.jpg');*/
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -185,7 +188,7 @@ header .header-content .header-content-inner p {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding: 0 50px;
+    /*padding: 0 50px;*/
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
@@ -226,7 +229,7 @@ header .header-content .header-content-inner p {
     linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url('http://my.innsight.com/assets/user_images/destinations/nashville-skyline-night1.jpg') no-repeat;
+    ), url('../img/austin.jpg') no-repeat;
 }
 
 .content2 {
@@ -234,7 +237,7 @@ header .header-content .header-content-inner p {
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    ), url('https://img1.etsystatic.com/071/0/7867627/il_fullxfull.825887381_4g4g.jpg') no-repeat;
+    ), url('../img/boston1.jpg');
 }
 
 .content3 {
@@ -242,11 +245,12 @@ header .header-content .header-content-inner p {
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    ), url('http://static1.squarespace.com/static/5617ccf2e4b0e983384f852d/t/569d0a5842f55250d920543a/1453132385736/Skyline+of+Austin,+Texas,+from+the+Hyatt+on+a+Late+Afternoon+Panorama.jpg?format=1500w') no-repeat;
+    ), url('https://img1.etsystatic.com/071/0/7867627/il_fullxfull.825887381_4g4g.jpg') no-repeat;
 }
 
 .content1_text, .content2_text, .content3_text {
   color: white;
+  margin-top: 65px;
 }
 
                     /* ******* CONTENT BLOCKS END****** */

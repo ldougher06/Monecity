@@ -24,6 +24,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
 </head>
 
@@ -61,37 +62,123 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Monecity</h1>
-                <hr>
+    <div id="myCarousel" class="carousel slide header-content">
+        <!-- Indicators -->
+<!--             <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol> -->
 
-                <h3 class="text-faded">
-                  <ul class="list-inline">
-                    <li>Simple</li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>Secure</li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>Profitable</li>
-                  </ul>
-                </h3>
-                <hr>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner header-content-inner">
+
+
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/nyc_aerial.jpg');"></div>
+                <div class="carousel-caption">
+                  <h1>Monecity</h1>
+                  <hr>
+
+                  <h3 class="text-faded">
+                    <ul class="list-inline">
+                      <li>Simple</li>
+                      <li class="footer-menu-divider">&sdot;</li>
+                      <li>Secure</li>
+                      <li class="footer-menu-divider">&sdot;</li>
+                      <li>Profitable</li>
+                    </ul>
+                  </h3>
+                  <hr>
+                  <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/nashville.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Monecity</h1>
+                    <hr>
+
+                    <h3 class="text-faded">
+                      <ul class="list-inline">
+                        <li>Simple</li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>Secure</li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>Profitable</li>
+                      </ul>
+                    </h3>
+                    <hr>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/seattle.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1>Monecity</h1>
+                    <hr>
+
+                    <h3 class="text-faded">
+                      <ul class="list-inline">
+                        <li>Simple</li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>Secure</li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>Profitable</li>
+                      </ul>
+                    </h3>
+                    <hr>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                </div>
             </div>
         </div>
-    </header>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev" aria-hidden="true">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next" aria-hidden="true">
+                <span class="icon-next"></span>
+            </a>
+
+        </div>
+
+<!-- ORIGINAL HEADER FOR CREATIVE TEMPLATE - ABOVE IS A FULL SIZE SLIDER -->
+
+  <!--     <header>
+          <div class="header-content">
+              <div class="header-content-inner">
+                  <h1>Monecity</h1>
+                  <hr>
+
+                  <h3 class="text-faded">
+                    <ul class="list-inline">
+                      <li>Simple</li>
+                      <li class="footer-menu-divider">&sdot;</li>
+                      <li>Secure</li>
+                      <li class="footer-menu-divider">&sdot;</li>
+                      <li>Profitable</li>
+                    </ul>
+                  </h3>
+                  <hr>
+                  <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+              </div>
+          </div>
+      </header> -->
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"><strong>Monecity</strong> has what you need!</h2>
+                    <h2 class="section-heading"><strong>Monecity</strong> delivers money to cities!</h2>
                     <hr class="light">
 
-                    <p class="text-faded">Nashville-based <strong>Monecity</strong> is a virtual payment processing company, which has the nation's only municipal virtual payment service called "VEEP."</p>
+                    <p class="text-faded"><strong>Monecity</strong> is a virtual payment processing company, which has the nation's only municipal virtual payment service called "VEEP."</p>
 
-                    <p class="text-faded"><strong>Monecity</strong> serves municipal and state governments by competitively securing optimal payment processing relationships for cities and other governmental bodies.</p>
+                    <p class="text-faded"><strong>Monecity</strong> serves municipal and state governments by competitively securing optimal payment processing relationships that deliver cash back.</p>
 
                     <a href="#services" class="page-scroll btn btn-default btn-lg sr-button">Get Started!</a>
                 </div>
@@ -115,9 +202,9 @@
                         <i class="fa fa-4x fa-line-chart text-primary sr-icons"></i>
                         <h3>What do we do?</h3>
                         <ul class="text-muted text-left">
-                          <li>Reduce overhead expenses</li>
                           <li>Create an additional revenue stream</li>
-                          <li>Modernize an organization's Accounts Payable department</li>
+                          <li>Bring a Fortune 500 payment solution to municipal accounts payable departments</li>
+                          <li>Reduce overhead expenses</li>
                         </ul>
                     </div>
                 </div>
@@ -127,8 +214,8 @@
                         <h3>How do we do it?</h3>
                         <ul class="text-muted text-left">
                           <li>Eliminate paper checks</li>
-                          <li>Integrate a virtual payment solution specific to an organization's needs</li>
-                          <li>Strategic partnerships with companies specializing in electronic payments</li>
+                          <li>Integrate a virtual payment solution specific to a city's needs</li>
+                          <li>Specialize in electronic payments for cities and local governments</li>
                         </ul>
                     </div>
                 </div>
@@ -137,10 +224,11 @@
                         <i class="fa fa-4x fa-usd text-primary sr-icons"></i>
                         <h3>What are the benefits?</h3>
                         <ul class="text-muted text-left">
-                          <li>Immediate cost savings</li>
-                          <li>Added revenue stream</li>
-                          <li>1% in monthly rebate for all AP payments converted to the virtual platform</li>
-                          <li>Reduces check fraud exposure</li>
+                          <li>Realize new revenue streams</li>
+                          <li>Support public initiatives without raising taxes, cutting jobs or taking any radical action</li>
+                          <li>Consistent cash back on all vendor payments paid by virtual payment processing</li>
+                          <li>Immediate cost savings compared to traditional check payment processes</li>
+                          <li>Elimination of check fraud exposure</li>
                         </ul>
                     </div>
                 </div>
@@ -190,38 +278,26 @@
         <div class="content1">
           <div class="featurette" id="">
               <img class="featurette-image img-circle img-responsive pull-left" src="./img/portfolio/fullsize/content2_VPP.png">
-              <h2 class="featurette-heading content1_text">Virtual Payment Processing:</h2>
-              <h3 class="text-muted content1_text">Like checks, but better.</h3>
-              <p class="content1_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
-              <p class="content1_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
+              <h2 class="content1_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to their vendors.</h2>
           </div>
         </div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="content2">
           <div class="featurette" id="">
               <img class="featurette-image img-circle img-responsive pull-right" src="./img/portfolio/fullsize/Payment-Gateway.png">
-              <h2 class="featurette-heading content2_text">Virtual Payment Processing:
-                  <span class="text-muted content2_text">Like checks, but better.</span>
+              <h2 class="content2_text">
+                <ul>
+                    <li>Turns AP department into a revenue generator</li>
+                    <li>Simple, secure and timely supplier funding</li>
+                    <li>Detailed remittance advice</li>
+                    <li>Integrates into normal AP workflow</li>
+                    <li>Uses existing vendor payment terms</li>
+                    <li>Simple Reconciliation</li>
+                </ul>
               </h2>
-              <p class="content2_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
-              <p class="content2_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="content3">
-          <div class="featurette" id="">
-              <img class="featurette-image img-circle img-responsive pull-left" src="./img/portfolio/fullsize/checks.jpg">
-              <h2 class="featurette-heading content3_text">Virtual Payment Processing:
-                  <span class="text-muted content3_text">Like checks, but better.</span>
-              </h2>
-              <p class="content3_text"><strong>Monecity</strong> is the first and only virtual payment processing company to serve municipal governments by delivering monthly revenues back to cities for VEEP processed payments made by the city to its vendors.</p>
-              <p class="content3_text">Because its service is compensated by the four payment processing companies, not by Metro Nashville, Monecity provides VEEP at <strong>no cost to the city!</strong></p>
           </div>
         </div>
 
@@ -238,7 +314,6 @@
                   <li class="footer-menu-divider">&sdot;</li>
                   <li>Profitable</li>
                 </ul>
-                <!-- <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
             </div>
         </div>
     </aside>
@@ -277,6 +352,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
