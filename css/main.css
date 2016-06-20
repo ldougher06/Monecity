@@ -18,12 +18,12 @@
     -o-background-size: cover;
 }
 
-.content1_text > strong {
-  color: #f05f40;
+.carousel-caption > h1 {
+  font-size: 75px !important;
 }
 
-.featurette-image {
-  border: 1px solid #f05f40;
+.content1_text > strong {
+  color: #f05f40;
 }
 
 @media (max-width: 767px) {
@@ -31,4 +31,12 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .carousel-caption > h1 {
+    font-size: 45px !important;
+  }
+  .content1_text > strong {
+    color: white;
+  }
+
 }
