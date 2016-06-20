@@ -18,12 +18,24 @@
     -o-background-size: cover;
 }
 
+.logo {
+  opacity: 0.2;
+  background: transparent;
+}
+
 .carousel-caption > h1 {
   font-size: 75px !important;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
 }
 
 .content1_text > strong {
   color: #f05f40;
+}
+
+.content2_text > ul > li {
+  margin-bottom: 20px;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
+
 }
 
 @media (max-width: 767px) {

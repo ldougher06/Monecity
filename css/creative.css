@@ -11,7 +11,6 @@ body {
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-
 }
 hr {
   border-color: #f05f40;
@@ -52,7 +51,10 @@ p {
   color: white;
 }
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
+}
+h3.text-faded {
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
 }
 section {
   padding: 100px 0;
@@ -227,17 +229,18 @@ header .header-content .header-content-inner p {
 .content1 {
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ), url('../img/austin.jpg') no-repeat;
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('../img/nashville2_cropped.jpg');
 }
 
 .content2 {
+  /*background: url('../img/nashville2_cropped.jpg');*/
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ), url('../img/boston1.jpg');
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url('../img/austin.jpg') no-repeat;
 }
 
 .content3 {
