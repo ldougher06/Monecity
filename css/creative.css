@@ -53,8 +53,8 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 1);
 }
-h3.text-faded {
-  text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
+h2.text-faded {
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, .9);
 }
 section {
   padding: 100px 0;

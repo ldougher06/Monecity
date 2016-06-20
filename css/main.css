@@ -25,14 +25,14 @@
 
 .carousel-caption > h1 {
   font-size: 75px !important;
-  text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, .9);
 }
 
 .content1_text > strong {
   color: #f05f40;
 }
 
-.content2_text > ul > li {
+.content1_text, .content2_text > ul > li {
   margin-bottom: 20px;
   text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
 
