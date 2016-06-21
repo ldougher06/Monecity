@@ -24,7 +24,11 @@ coverage
 build/Release
 
 # Dependency directory
-!node_modules/
+node_modules/
+font-awesome/
+img/
+less/
+
 
 # Optional npm cache directory
 .npm
