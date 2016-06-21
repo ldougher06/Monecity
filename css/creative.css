@@ -239,16 +239,16 @@ header .header-content .header-content-inner p {
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ), url('../img/nashville2_cropped.jpg');
+    ), url('../img/seattle2.jpg') no-repeat;
 }
 
 .content2 {
   /*background: url('../img/nashville2_cropped.jpg');*/
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ), url('../img/austin.jpg') no-repeat;
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('../img/nashville2_cropped.jpg');
 }
 
 .content3 {

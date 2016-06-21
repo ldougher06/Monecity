@@ -3,6 +3,6 @@
 console.log('main.js');
 
 $('.carousel').carousel({
-  interval: 4000
+  interval: 3000
 })
 
