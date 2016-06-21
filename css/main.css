@@ -18,18 +18,23 @@
     -o-background-size: cover;
 }
 
-.logo {
-  opacity: 0.2;
-  background: transparent;
+.logo_partial {
+  opacity: .7;
 }
-
 .carousel-caption > h1 {
   font-size: 75px !important;
-  text-shadow: 3px 4px 5px rgba(0, 0, 0, .9);
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 1);
+  font-style: italic;
+}
+
+.carousel-control {
+  color: #567338;
 }
 
 .content1_text > strong {
-  color: #f05f40;
+  /*color: #f05f40;*/
+  color: #568938;
+  /*text-shadow: 3px 6px 7px rgba(0, 0, 0, .9);*/
 }
 
 .content1_text, .content2_text > ul > li {
@@ -46,6 +51,9 @@
 
   .carousel-caption > h1 {
     font-size: 45px !important;
+  }
+  .carousel-caption > h2 > ul {
+    display: inline-flex;
   }
   .content1_text > strong {
     color: white;
