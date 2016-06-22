@@ -47,7 +47,7 @@ p {
 }
 .bg-primary {
   /*background-color: #f05f40;*/
-  background-color: #567338;
+  background-color: #6D8461;
 }
 .bg-dark {
   background-color: #222222;
@@ -243,7 +243,6 @@ header .header-content .header-content-inner p {
 }
 
 .content2 {
-  /*background: url('../img/nashville2_cropped.jpg');*/
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.1),
@@ -251,13 +250,13 @@ header .header-content .header-content-inner p {
     ), url('../img/nashville2_cropped.jpg');
 }
 
-.content3 {
+/*.content3 {
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ), url('https://img1.etsystatic.com/071/0/7867627/il_fullxfull.825887381_4g4g.jpg') no-repeat;
-}
+}*/
 
 .content1_text, .content2_text, .content3_text {
   color: white;
@@ -274,7 +273,7 @@ header .header-content .header-content-inner p {
 }
 .text-primary {
   /*color: #f05f40;*/
-  color: #567221;
+  color: #6D8461;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -332,8 +331,8 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   /*background-color: #f05f40;*/
   /*border-color: #f05f40;*/
-  background-color: #567338;
-  border-color: #567338;
+  background-color: #6D8461;
+  border-color: #6D8461;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -345,8 +344,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #6D8461;
+  border-color: #6D8461;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -373,12 +372,12 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
   /*background-color: #f05f40;*/
   /*border-color: #f05f40;*/
-  background-color: #567338;
-  border-color: #567338;
+  background-color: #6D8461;
+  border-color: #6D8461;
 }
 .btn-primary .badge {
   /*color: #f05f40;*/
-  color: #567338;
+  color: #6D8461;
   background-color: #ffffff;
 }
 .btn {
