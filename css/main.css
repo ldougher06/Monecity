@@ -25,8 +25,8 @@
 .logo2 {
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     );
 
   padding: 17px 20px 20px;
@@ -57,10 +57,6 @@
   text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
 
 }
-
-/*.footer {
-
-}*/
 
 @media (max-width: 767px) {
   body {
