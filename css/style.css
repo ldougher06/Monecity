@@ -28,17 +28,11 @@ body {
 .logo2 {
   background:
     linear-gradient(
-      rgba(255, 255, 255, .2),
+      rgba(255, 255, 255, .1),
       rgba(255, 255, 255, 1)
     );
 
   padding: 17px 20px 20px;
-}
-
-.carousel-caption > h1 {
-  font-size: 75px !important;
-  text-shadow: 3px 4px 5px rgba(0, 0, 0, 1);
-  font-style: italic;
 }
 
 .carousel-control {
@@ -63,12 +57,6 @@ body {
     padding-right: 0;
   }
 
-  .carousel-caption > h1 {
-    font-size: 45px !important;
-  }
-  .carousel-caption > h2 > ul {
-    display: inline-flex;
-  }
   .content1_text > strong {
     color: white;
   }
