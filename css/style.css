@@ -39,10 +39,35 @@ body {
   color: #567338;
 }
 
+/* ---  Content Features  --- */
+
+.content1, .content2 {
+  padding: 0 15px 0 15px;
+}
+
+.content1 {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('../img/seattle2.jpg') no-repeat;
+}
+
+.content2 {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('../img/nashville2_cropped.jpg');
+}
+
+.content1_text, .content2_text, .content3_text {
+  color: white;
+  margin-top: 65px;
+}
+
 .content1_text > strong {
-  /*color: #f05f40;*/
   color: #568938;
-  /*text-shadow: 3px 6px 7px rgba(0, 0, 0, .9);*/
 }
 
 .content1_text, .content2_text > ul > li {
@@ -50,6 +75,9 @@ body {
   text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
 
 }
+
+/* ---  /Content Features  --- */
+
 
 @media (max-width: 767px) {
   body {
